@@ -1,0 +1,24 @@
+{
+  "name": "align-string",
+  "version": "0.0.0",
+  "description": "align-string",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavinning/align-string.git"
+  },
+  "keywords": [
+    "align-string",
+    "align-text",
+    "aligin-indent"
+  ],
+  "author": "gavinning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gavinning/align-string/issues"
+  },
+  "homepage": "https://github.com/gavinning/align-string#readme"
+}
