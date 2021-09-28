@@ -1,10 +1,13 @@
 {
   "name": "align-string",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "align-string",
-  "main": "src/app.js",
+  "main": "dist/app.js",
   "scripts": {
-    "test": "mocha test/**/*.spec.js"
+    "dev": "tsc --watch",
+    "test": "mocha test/*.spec.js",
+    "build": "tsc",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -25,6 +28,8 @@
     "pad-right": "^0.2.2"
   },
   "devDependencies": {
-    "mocha": "^5.2.0"
+    "mocha": "^9.1.2",
+    "@types/node": "^16.3.2",
+    "typescript": "^4.3.5"
   }
 }
